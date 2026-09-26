@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# Model weights / large artifacts
+*.pt
+*.pth
+
+# Outputs
+figures/
+*.csv
+!requirements.txt
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
